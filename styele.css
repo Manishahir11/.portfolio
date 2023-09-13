@@ -24,6 +24,9 @@ body{
     font-size: 24px;
     padding: 10px;
 }
+.fo-logo{
+    color: chocolate;
+}
 
 .contener {
     width:100%;
@@ -41,24 +44,70 @@ nav a {
     text-decoration: none;
     list-style: none;
     margin: 0 20px;
-
-
+}
+nav a:hover{
+    color: #0ef;
+    font-size: 1.02rem;
+    
 }
 .main{
     margin: 0;
 }
 .contenar{
-    margin-top: 20px;
+    margin-top: 2px;
     display: flex;
     align-items: center;
     
 }
 .left{
     width: 50%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     justify-content: center;
+}
+.i-con{
+    margin-top: 10px;
+}
+.i-con a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin:30px, 15px, 30px ,0;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    color: #0ef;
+    
+}
+.i-con a:hover{
+    background: #0ef;
+    color: white;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn a{
+    
+    margin-top: 20px;  
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+    color: #0ef;
+    border: 2px solid #0ef;
+    border-radius: 5px; 
+}
+.btn a:hover{
+    background: #0ef;
+    color: white;
+    box-shadow: 0 0 30px #0ef;
 }
 .right{
     width: 50%;
@@ -68,11 +117,14 @@ nav a {
 }
 
 img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #0ef;
     border-radius: 50%;
+    box-shadow: 0 0 20px #0ef;
 }
 #element{
     font-size: 35px;
-    color: rgb(219, 141, 16);
+    /* color: rgb(219, 141, 16); */
+    color: #0ef;
 }
