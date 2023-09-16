@@ -1,0 +1,103 @@
+/* Technical */
+/* section .technical:hover{
+    animation: pasentaghtml 1s linear forwards;
+} */
+.html {
+    text-align: right;
+    height: 4px;
+    background-color: #0ef;
+    margin-top: 2px;
+    animation: pasentaghtml 1s linear forwards;
+
+}
+
+
+   
+
+
+.CSS {
+    margin-top: 2px;
+    text-align: right;
+    height: 4px;
+    background-color: #0ef;
+    animation: pasentagcss 1s linear forwards;
+}
+
+.js {
+    margin-top: 2px;
+    text-align: right;
+    height: 4px;
+    background-color: #0ef;
+    animation: pasentagjs 1s linear forwards;
+}
+
+.python {
+    margin-top: 2px;
+    text-align: right;
+    height: 4px;
+    background-color: #0ef;
+    animation: pasentagpython 1s linear forwards;
+}
+
+.react {
+    margin-top: 2px;
+    text-align: right;
+    height: 4px;
+    background-color: #0ef;
+    animation: pasentagreact 1s linear forwards;
+}
+
+@keyframes pasentaghtml {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+
+    }
+}
+
+@keyframes pasentagcss {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+
+    }
+}
+
+@keyframes pasentagjs {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+
+    }
+}
+
+@keyframes pasentagpython {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+
+    }
+}
+
+@keyframes pasentagreact {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+
+    }
+}
