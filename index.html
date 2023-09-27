@@ -12,14 +12,15 @@
 </head>
 
 <body>
-    <header class="header">
+    <header  id="header">
         <nav class="navbar">
             <div class="logo">.port<span class="fo-logo">folieo</span></div>
             <div class="contener">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Skills</a>
+                <a href="#header">Home</a>
+                
+                <a href="#about"  >About</a>
+                <a href="#myService">Services</a>
+                <a href="#skills">Skills</a>
                 <a href="#">Project</a>
                 <a href="#">Contact</a>
             </div>
@@ -51,7 +52,7 @@
             </div>
 
         </div>
-        <div class="about">
+        <div id="about">
             <div class="contenar">
                 <div class="right">
                     <img src="IMG_3115.JPG" alt="">
@@ -69,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="myService">
+            <div class="myService" id="myService">
                 <h1> My Services</h1>
                 <div class="card">
                     <div class="card1">
@@ -95,9 +96,9 @@
 
             </div>
         </div>
+        <h1 style="text-align: center;">My<span style="color: #0ef;">Skills</span></h1>
         <section>
-            <h1 style="text-align: center;">My<span style="color: #0ef;">Skills</span></h1>
-            <div class="skills">
+            <div class="skills" id="skills">
                 <div class="technical">
                     <h1>Technical</h1>
                     <!-- HTML -->
@@ -154,12 +155,18 @@
                     </div>
                 </div>
             </div>
-            <div class="professional">
-                <h1>Professional Skills</h1>
-                <div class="crical"></div>
-                <div class="crical"></div>
-                <div class="crical"></div>
-                <div class="crical"></div>
+            <div class="professional" >
+                <h1 style="display: block;">Professional Skills</h1>
+                <div class="cri">
+                    <div class="WAP">
+                    <div class="crical">90%</div>creativity
+                    <div class="crical">65%</div>communication <br>
+                </div>    
+                <div class="WAP1">
+                    <div class="crical">75%</div>problem solving
+                    <div class="crical">85%</div>teamwork
+                </div>
+            </div>
             </div>
 
             </div>
@@ -170,7 +177,7 @@
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="Typed.js"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
